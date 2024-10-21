@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Add some padding */
+}
+
+.navLogo p {
+    color: black; /* Logo text color */
+    margin: 0; /* Remove default margin */
+}
+
+/*.navbar {*/
+/*    display: flex; !* Use flexbox *!*/
+/*}*/
+
+/*.navMenuList {*/
+/*    list-style: none; !* Remove bullet points *!*/
+/*    padding: 0; !* Remove padding *!*/
+/*    margin: 0; !* Remove margin *!*/
+/*    display: flex; !* Use flexbox for the list *!*/
+/*}*/
+
+/*.navList {*/
+/*    margin: 0 15px; !* Add some space between items *!*/
+/*    color: black; !* Menu item text color *!*/
+/*    cursor: pointer; !* Change cursor to pointer *!*/
+/*}*/
+
+/*button {*/
+/*    background-color: #d4d6d9; !* Button color *!*/
+/*    color: white; !* Button text color *!*/
+/*    border: none; !* Remove border *!*/
+/*    padding: 10px 15px; !* Add padding *!*/
+/*    cursor: pointer; !* Change cursor to pointer *!*/
+/*}*/
+
+/*button:hover {*/
+/*    background-color: #0056b3; !* Darken button on hover *!*/
+/*}*/
+
+/*.wrapper{*/
+/*    padding-inline: 10vw;*/
+/*    padding-top: 10vw;*/
+/*}*/
