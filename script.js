@@ -43,6 +43,15 @@ const projects = [
         liveDemo: "https://2024-henryt.dev.io-academy.uk/build/",
         tags: ["#oop", "#sql", "#php"]
     },
+    {
+        title: "Planet Age Calculator",
+        description: "A solo exercise on the iO Academy course, this is an application to calculate your age on various " +
+            "planets, using Typescript, HTML and CSS.",
+        imgSrc: "planet.png",
+        github: "https://github.com/emferrari31/planet-age-calculator",
+        liveDemo: "https://emferrari31.github.io/planet-age-calculator/",
+        tags: ["#typescript", "#javascript", "#html", "#css"]
+    }
 ];
 
 const projectContainer = document.querySelector('section.p-4.flex.flex-wrap.justify-center');
