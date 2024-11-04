@@ -7,9 +7,11 @@ let typingEffect = new Typed(".typedText", {
 })
 const projects = [
     {
-        title: "Portfolio Project",
-        description: "My first project on the Full Stack Track Course at iO Academy was to create my portfolio site " +
-                        "using basic HTML and CSS.",
+        title: "Portfolio Site",
+        description: "The Portfolio Site is my first project on the Full Stack Track Course at iO Academy, " +
+            "designed to showcase my skills, projects, and personal brand. Built using fundamental HTML and CSS, " +
+            "this site serves as a digital representation of my journey as a developer. I have since built another " +
+            "portfolio site (this one you're currently on) using JavaScript.",
         imgSrc: "portfolioScreenshot.png",
         github: "https://github.com/emferrari31/portfolio",
         liveDemo: "https://emferrari31.github.io/portfolio/",
@@ -17,9 +19,9 @@ const projects = [
     },
     {
         title: "Collection Application",
-        description: "I built a Collection Application based on my passion for photography. This was built using PHP," +
-                    "HTML and CSS, with a SQL database. The purpose of this site is for the user to be able " +
-                    "to proudly display a collection they have, and to continue to add to it as the collection grows.",
+        description: "The Collection Application is a personal project inspired by my passion for photography. Built " +
+            "using PHP, HTML, CSS, and a SQL database, this web application allows users to showcase and manage " +
+            "their photo collections effortlessly.",
         imgSrc: "collectionAppScreenshot.png",
         github: "https://github.com/emferrari31/collection-app",
         liveDemo: "https://2024-emmaf.dev.io-academy.uk/collection-app/index.php",
@@ -27,8 +29,9 @@ const projects = [
     },
     {
         title: "Film Quote Quiz",
-        description: "A group project within a team of 6, we were tasked to create a Film Quote Quiz Game using " +
-                        "JavaScript, HTML and CSS",
+        description: "The Film Quote Quiz Game is an engaging group project developed by a team of six, " +
+            "designed to test users' knowledge of iconic movie quotes. Using JavaScript, HTML, and CSS, we created an " +
+            "interactive web application that combines fun and learning for film enthusiasts.",
         imgSrc: "Updated%20Film%20Game.png",
         github: "https://github.com/emferrari31/2024-jul-fst-film-quote-quiz",
         liveDemo: "https://io-academy.github.io/2024-jul-fst-film-quote-quiz/",
@@ -36,8 +39,10 @@ const projects = [
     },
     {
         title: "Furniture Store API",
-        description: "A group project within a team of 3, we were provided the front end of this furniture store " +
-                        "website and were tasked with setting up the back end using an API",
+        description: "The Furniture Store API is a collaborative project developed by a team of three, where we were " +
+            "responsible for building the backend to support a pre-existing front end for a furniture store website. " +
+            "Our focus was on creating a robust API that facilitates seamless data interaction between the " +
+            "frontend and backend.",
         imgSrc: "furnitureStoreApi.png",
         github: "https://github.com/iO-Academy/24-jul-hippos-furniture-store-API",
         liveDemo: "https://2024-henryt.dev.io-academy.uk/build/",
@@ -45,13 +50,25 @@ const projects = [
     },
     {
         title: "Planet Age Calculator",
-        description: "A solo exercise on the iO Academy course, this is an application to calculate your age on various " +
-            "planets, using Typescript, HTML and CSS.",
+        description: "The Planet Age Calculator is a web application designed to help users determine their age on " +
+            "different planets in our solar system. Developed as part of the iO Academy course, this solo exercise " +
+            "showcases my skills in TypeScript, HTML, and CSS.",
         imgSrc: "planet.png",
         github: "https://github.com/emferrari31/planet-age-calculator",
         liveDemo: "https://emferrari31.github.io/planet-age-calculator/",
         tags: ["#typescript", "#javascript", "#html", "#css"]
+    },
+    {
+        title: "CRUD To-do App",
+        description: "A solo exercise on the iO Academy course, this project is a to-do application that " +
+            "allows users to create, read, update, and delete tasks. It employs React for the front end, following the " +
+            "MVC architecture for a clean separation of concerns, and Slim as the backend framework.",
+        imgSrc: "todoappscreenshot.png",
+        github: "https://github.com/emferrari31/todoApp",
+        liveDemo: "https://todoapp.2024-emmaf.dev.io-academy.uk/",
+        tags: ["#mvc", "#react", "#html", "#css", "#slim", "sql"]
     }
+
 ];
 
 const projectContainer = document.querySelector('section.p-4.flex.flex-wrap.justify-center');
