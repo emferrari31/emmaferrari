@@ -18,6 +18,18 @@ const projects = [
         tags: ["#html", "#css"]
     },
     {
+        title: "PHP Blackjack Game",
+        description: "This project started as a command-line Blackjack game developed as part of my studies. " +
+            "After successfully implementing the core game logic, I adapted it for the web, adding a simple," +
+            " user-friendly interface. The game allows users to press a 'Deal' button to refresh the page, reloading " +
+            "the game and resetting the gameplay. Built using PHP for the backend logic, and HTML and CSS for the " +
+            "frontend, this project showcases a blend of functional programming and web development skills.",
+        imgSrc: "blackjackscreenshot.png",
+        github: "https://github.com/emferrari31/php-blackJack",
+        liveDemo: "https://2024-emmaf.dev.io-academy.uk/phpBlackJackGame/",
+        tags: ["#php", "#html", "#css"]
+    },
+    {
         title: "Collection Application",
         description: "The Collection Application is a personal project inspired by my passion for photography. Built " +
             "using PHP, HTML, CSS, and a SQL database, this web application allows users to showcase and manage " +
@@ -66,9 +78,8 @@ const projects = [
         imgSrc: "todoappscreenshot.png",
         github: "https://github.com/emferrari31/todoApp",
         liveDemo: "https://todoapp.2024-emmaf.dev.io-academy.uk/",
-        tags: ["#mvc", "#react", "#html", "#css", "#slim", "sql"]
-    }
-
+        tags: ["#mvc", "#react", "#html", "#css", "#slim", "#sql"]
+    },
 ];
 
 const projectContainer = document.querySelector('section.p-4.flex.flex-wrap.justify-center');
