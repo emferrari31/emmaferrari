@@ -80,6 +80,18 @@ const projects = [
         liveDemo: "https://todoapp.2024-emmaf.dev.io-academy.uk/",
         tags: ["#mvc", "#react", "#html", "#css", "#slim", "#sql"]
     },
+    {
+        title: "REACT e-Commerce Site",
+        description: "Inspired by several fantastic-looking company websites, I embarked on a personal project to build " +
+            "an e-commerce platform while honing my React skills. Initially, my goal was to replicate the functionality " +
+            "and design of a site I admired. However, as the project evolved, I decided to give it its own unique" +
+            " identity, creating a brand and business concept to accompany the website. The platform was developed " +
+            "using React, JavaScript, and CSS, with a focus on delivering a seamless user experience and responsive design.",
+        imgSrc: "e-commerceSite.png",
+        github: "https://github.com/emferrari31/ecommerce-store",
+        liveDemo: "https://ecom.2024-emmaf.dev.io-academy.uk/",
+        tags: ["#react", "#html", "#css", "#javascript"]
+    },
 ];
 
 const projectContainer = document.querySelector('section.p-4.flex.flex-wrap.justify-center');
